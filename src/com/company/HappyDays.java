@@ -1,5 +1,5 @@
 package com.company;
 
-public enum HappyDays {
+/*public enum HappyDays {
     SATURDAY, SUNDAY;
-}
+}*/
