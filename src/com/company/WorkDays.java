@@ -1,12 +1,32 @@
 package com.company;
 
-/*public enum WorkDays {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY;
+    public class WorkDays {
 
-    public void workDayMessage(String workDay){
-        System.out.println("Капец. Сегодня " + workDay + " Опять на работу.");
+        Calendar workDays = Calendar.WORKDAYS;
+        EnumWorkDays enumWorkDays;
+        //EnumWorkDays[] days = EnumWorkDays.values();
+
+        String[] workDaysList = new String[]{
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday"
+        };
+
+        public void selectWorkDay(String day){
+            for (int i=0; i<workDaysList.length; i++) {
+                if (day.equals(workDaysList[i])) {
+                    workDays.workDayMessage();
+                    System.out.println("Weekend will be soon!");
+
+                }
+            }
+
+            enumWorkDays.showAllDays();
+        }
+
+        //EnumWorkDays[] days = EnumWorkDays.values();
+
+
     }
-
-
-
-}*/
