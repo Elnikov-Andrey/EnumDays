@@ -1,6 +1,6 @@
 package com.company;
 
-public enum EnumWorkDays {
+/*public enum EnumWorkDays {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY;
 
     EnumWorkDays[] days = EnumWorkDays.values();
@@ -8,9 +8,9 @@ public enum EnumWorkDays {
     public void showAllDays(){
 
         for (EnumWorkDays s : days) { System.out.println(s); };
-        /*for (int i=0; i<days.length; i++) {
+        for (int i=0; i<days.length; i++) {
             System.out.println(days[i]);
-        }*/
+        }
     }
 
-}
+}*/

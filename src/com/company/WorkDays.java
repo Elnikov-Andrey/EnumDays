@@ -3,7 +3,7 @@ package com.company;
     public class WorkDays {
 
         Calendar workDays = Calendar.WORKDAYS;
-        EnumWorkDays enumWorkDays;
+        //EnumWorkDays enumWorkDays;
         //EnumWorkDays[] days = EnumWorkDays.values();
 
         String[] workDaysList = new String[]{
@@ -18,12 +18,13 @@ package com.company;
             for (int i=0; i<workDaysList.length; i++) {
                 if (day.equals(workDaysList[i])) {
                     workDays.workDayMessage();
+                    System.out.println("Today is " + (i+1) + " work day");
                     System.out.println("Weekend will be soon!");
 
                 }
             }
 
-            enumWorkDays.showAllDays();
+            //enumWorkDays.showAllDays();
         }
 
         //EnumWorkDays[] days = EnumWorkDays.values();
