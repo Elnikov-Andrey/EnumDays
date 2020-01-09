@@ -3,6 +3,7 @@ package com.company;
     public class HappyDays{
 
         Calendar happyDays = Calendar.HAPPYDAYS;
+        EnumHappyDays enumHappyDays = EnumHappyDays.SUNDAY;
 
         String[] happyDaysList = new String[]{"saturday","sunday"};
 
@@ -13,6 +14,8 @@ package com.company;
                     System.out.println("Have a Good day!");
                 }
             }
+
+            enumHappyDays.showAllHappyDays();
         }
 
     }
